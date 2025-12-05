@@ -5,7 +5,7 @@ function Heropng() {
   return (
     <div>
       <Image
-        src="/hero.png"
+        src="/herogirl.png"
         width={640} 
         height={677}
         alt=""

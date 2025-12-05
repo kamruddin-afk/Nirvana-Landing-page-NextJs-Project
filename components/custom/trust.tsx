@@ -1,15 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
+import styles from "@/components/custom/custom.module.css";
 
 function Trust() {
   return (
     <div>
-      <Image
-        src="/smc-33-years-of-trust-1 1.png"
-        width={75} 
-        height={75}
-        alt=""
-      />
+      <h2 className={`text-xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.TradeWithoutLimitsgradient}`}>#TradeWithoutLimits</h2>
     </div>
   )
 }

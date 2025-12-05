@@ -2,6 +2,9 @@ import React from 'react'
 import styles from "@/components/custom/custom.module.css";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Advancechartvideo from '@/components/custom/advanceChartVideo'
+import ApiVideo from '@/components/custom/ApiVideo';
+import GttOrder from '@/components/custom/GttOrder';
+import MtfVideo from '@/components/custom/MtfVideo';
 
 function Tab() {
     return (
@@ -99,15 +102,15 @@ function Tab() {
                         </TabsContent>
 
                         <TabsContent value="algo" className="flex items-center justify-center mt-0">
-                            <Advancechartvideo />
+                            <ApiVideo />
                         </TabsContent>
 
                         <TabsContent value="gtt" className="flex items-center justify-center mt-0">
-                            <Advancechartvideo />
+                            <GttOrder />
                         </TabsContent>
 
                         <TabsContent value="margin" className="flex items-center justify-center mt-0">
-                            <Advancechartvideo />
+                            <MtfVideo />
                         </TabsContent>
 
                         <TabsContent value="research" className="flex items-center justify-center mt-0">

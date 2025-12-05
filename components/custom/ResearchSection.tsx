@@ -5,9 +5,15 @@ import styles from "@/components/custom/custom.module.css";
 function ResearchSection() {
   return (
     <section className="w-full">
-      <div className="container grid grid-cols-1 sm:grid-cols-2 w-full p-5 sm:p-10 pb-0 sm:pb-0">
+      <div className="container mx-auto">
 
+        <div className="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] mx-auto">
 
+         <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.AllInOneH3}`}>Built for Traders Who Value Research and Reliability</h3>
+                  <p className={`w-full sm:w-[600px] md:w-[800px] lg:w-[1100px] mx-auto text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.AllInOneP}`}>Step into a smarter trading ecosystem where SEBI-registered insights, advanced technology, and dependable performance work together for you.</p>
+
+        </div>
+        <div className='grid grid-cols-1 sm:grid-cols-2 w-full p-5 sm:p-10 pb-0 sm:pb-0'>
         <div className="max-w-[600px] h-auto pt-20 order-2 sm:order-1">
           <Researchgirl />
         </div>
@@ -195,7 +201,7 @@ function ResearchSection() {
 
           </div>
         </div>
-
+</div>
 
       </div>
     </section>

@@ -252,6 +252,14 @@ font-weight: 500;
 line-height: 130%; /* 33.8px */
 }
 
+.TradeWithoutLimitsgradient {
+    font-weight: bold;
+    background: linear-gradient(90deg, #3c438f, #1ec69f);
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: normal;
+}
+
 
 
 @media (max-width:1440px) {

@@ -1,25 +1,25 @@
 "use client";
 import React from "react";
-import Heropng from "@/components/custom/heropng";
 import styles from "@/components/custom/custom.module.css";
-import Experticon from "@/components/custom/experticon";
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button";
-import Bggraphic from "@/components/custom/bggraphic"
-import Pricingman from "@/components/custom/pricingMan";
+import Hero from '@/components/custom/Hero'
 import Tab from "@/components/custom/tab"
-import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow, } from "@/components/ui/table"
 import ResearchSection from '@/components/custom/ResearchSection'
 import Howitwork from "@/components/custom/HowItWork";
 import Testimonials from '@/components/custom/testimonials'
 import Image from "next/image";
 import AwardSlider from "@/components/custom/AwardSlider";
 import FaqAccordion from "@/components/custom/FaqAccordion";
+import StopGuessing from '@/components/custom/StopGuessing';
+import PricingSection from '@/components/custom/PricingSection'
 
 
 export default function Home() {
 
 
+
+
+
+ {/* award slider start  */}
   const imgs: string[] = [
     "/Award-Symbol.png",
     "/Award-Symbol.png",
@@ -35,6 +35,10 @@ export default function Home() {
     "/Award-Symbol.png"
 
   ];
+
+  {/* award slider end  */}
+
+  {/* testimonail slider start  */}
 
   const faqData = [
     {
@@ -53,162 +57,24 @@ export default function Home() {
 
     { question: "How do I get started with the Alpha Trader Plan?", answer: "Getting started is simple — just enter your mobile number on the landing page, complete the basic verification, and open your Ujjivan Bank-SMC 3-in-1 Account. After activation, you can subscribe to the Alpha Trader Plan for ₹699/year and start trading at ₹5/order." }
   ];
-
+{/* testimonail slider end  */}
   return (
 
     <>
       <section className={`bg-bannerImg bg-cover ${styles.mobileVeiw}`}>
-        <div className="container mx-auto p-2 sm:p-5 pb-0">
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 pt-10">
-
-            {/* LEFT CONTENT */}
-            <div className="lg:text-left content-center">
-
-              <h2 className={`${styles.heroSectionContentH2}`}>Smarter Trading Starts with</h2>
-              <h1 className={`${styles.heroSectionContentH1}`}>Expert Research</h1>
-
-              {/* icon row */}
-              <div className="flex lg:justify-start">
-                <span className="ml-0 md:ml-2 lg:ml-10 xl:ml-[200px]"><Experticon /></span>
-              </div>
-
-              <p className={`${styles.heroSectionContentP} max-w-md lg:max-w-none lg:mx-0`}>
-                Experience Trading Backed by Proven Research with ₹0 Brokerage
-              </p>
-
-
-              <div className="w-full max-w-xl pt-10">
-
-                <div className="flex items-center bg-white overflow-hidden w-full">
-                  <div className="py-3 px-3 sm:px-3 sm:py-3 border-r text-gray-700 sm:text-lg border rounded-sm rounded-lg border-black rounded-r-none border-r-0 bg-[#F0F3F8]">
-                    +91
-                  </div>
-
-                  <input
-                    type="text"
-                    placeholder="Enter Mobile Number"
-                    className="flex-1 px-3 py-3 text-base w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 sm:text-lg focus:outline-none border border-black"
-                  />
-
-                  <button
-                    className="bg-[#3E4695] text-white font-semibold px-3 py-3 sm:px-3 sm:py-3 text-base sm:text-lg hover:bg-[#2d3375]
-            whitespace-nowrap border rounded-sm rounded-lg border-black rounded-l-none border-l-0"
-                  >Start Now!</button>
-                </div>
-
-              </div>
-
-            </div>
-
-            {/* RIGHT IMAGE */}
-            <div className="flex justify-center lg:justify-end">
-              <Heropng />
-            </div>
-
-          </div>
-
-        </div>
+        <Hero />
       </section>
 
 
 
-      <section className="StopGuessing bg-slate-50 relative p-10">
-        <div className="absolute top-0 left-0 w-[50px] sm:w-[200px] md:w-[350px] lg:w-[500px]">
-          <Bggraphic />
-
-        </div>
-
-        <div className="container mx-auto pt-5 pb-5">
-          <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
-
-            {/* Left Content */}
-            <div className="StopGuessingContant text-center lg:text-left">
-              <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.StopGuessingContantH3}`}>
-                Stop Guessing. Start Trading with Proven Research.
-              </h3>
-              <p className={`text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.StopGuessingContantP} mt-4`}>
-                SMC Nirvana gives you access to SEBI-registered expert calls, advanced analysis tools, and transparent pricing - empowering you to make informed trading decisions every day.
-              </p>
-            </div>
-
-            {/* Right Benefits */}
-            <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 mt-8 lg:mt-0">
-              <div className={`aspect-square  bg-[#F2EDFF]  ${styles.StopGuessingBenifitsFirst}`}>
-                <h3 className={`text-1xl sm:text-2xl md:text-3xl lg:text-3xl ${styles.StopGuessingBenifitsLayoutContent}`}>Daily Actionable Calls</h3>
-              </div>
-              <div className={`aspect-square   bg-[#E2F8F3] ${styles.StopGuessingBenifitsSecond}`}>
-                <h3 className={`text-1xl sm:text-2xl md:text-3xl lg:text-3xl ${styles.StopGuessingBenifitsLayoutContent}`}>Sector-Wise Insights</h3>
-              </div>
-              <div className={`aspect-square  bg-[#E2F8F3] ${styles.StopGuessingBenifitsThard}`}>
-                <h3 className={`text-1xl sm:text-2xl md:text-3xl lg:text-3xl ${styles.StopGuessingBenifitsLayoutContent}`}>Research-Backed Trades</h3>
-              </div>
-              <div className={`aspect-square  bg-[#F2EDFF] ${styles.StopGuessingBenifitsLayoutForth}`}>
-                <h3 className={`text-1xl sm:text-2xl md:text-3xl lg:text-3xl ${styles.StopGuessingBenifitsLayoutContent}`}>Advanced Charting Tools</h3>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
+      <section className="StopGuessing">
+         <StopGuessing />
       </section>
 
 
 
       <section className="pricing-section bg-pricingImg bg-no-repeat bg-center lg:bg-contain sm:bg-cover ">
-        <div className="container mx-auto px-4 md:px-8 lg:px-16">
-          <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 mt-20">
-
-            {/* Pricing Image - Hidden on mobile */}
-            <div className="lg:pt-20 md:pt-20 hidden lg:flex justify-center">
-              <Pricingman />
-            </div>
-
-            {/* Pricing Table & Content */}
-            <div className="pt-12">
-              <h3 className={`${styles.pricingSectionH3} text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl`}>
-                Transparent Pricing. <br />Smarter Savings.
-              </h3>
-
-              <Table className="bg-white rounded-md mt-6 w-full">
-                <TableHeader className={styles.pricingTableColor}>
-                  <TableRow className="h-14">
-                    <TableHead className="text-white text-center text-[21px]">Segment</TableHead>
-                    <TableHead className="text-white text-center text-[21px]">Brokerage</TableHead>
-                  </TableRow>
-                </TableHeader>
-
-                <TableBody>
-                  <TableRow className="h-14">
-                    <TableCell className="text-center text-[19px]">Stock Options</TableCell>
-                    <TableCell className="text-center text-[19px]">₹20 per Lot</TableCell>
-                  </TableRow>
-                  <TableRow className="h-14">
-                    <TableCell className="text-center text-[19px]">Index Options</TableCell>
-                    <TableCell className="text-center text-[19px]">₹20 per Lot</TableCell>
-                  </TableRow>
-                  <TableRow className="h-14">
-                    <TableCell className="text-center text-[19px]">Intraday</TableCell>
-                    <TableCell className="text-center">0.02%</TableCell>
-                  </TableRow>
-                  <TableRow className="h-14">
-                    <TableCell className="text-center text-[19px]">Delivery</TableCell>
-                    <TableCell className="text-center text-[19px]">0.20%</TableCell>
-                  </TableRow>
-                  <TableRow className="h-14">
-                    <TableCell className="text-center text-[19px]">Futures</TableCell>
-                    <TableCell className="text-center text-[19px]">0.02%</TableCell>
-                  </TableRow>
-                </TableBody>
-              </Table>
-
-              <p className="text-center lg:text-center pt-5 pb-10 text-[14px]">
-                Note: First 30 days brokerage-free (up to ₹1000) for new accounts.
-              </p>
-            </div>
-
-          </div>
-        </div>
+        <PricingSection />
       </section>
 
 
@@ -221,12 +87,9 @@ export default function Home() {
 
 
       <section className="WhySection bg-whySectionImg pt-20 bg-cover">
-        <div className="container mx-auto">
-          <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.AllInOneH3}`}>Built for Traders Who Value Research and Reliability</h3>
-          <p className={`text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.AllInOneP}`}>Step into a smarter trading ecosystem where SEBI-registered insights, advanced technology, and dependable performance work together for you.</p>
-
+       
           <ResearchSection />
-        </div>
+       
 
       </section>
 
