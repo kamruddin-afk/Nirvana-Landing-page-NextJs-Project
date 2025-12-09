@@ -8,7 +8,7 @@ import Image from "next/image";
 function Hero() {
   return (
     <div>
-         <div className="container mx-auto p-2 sm:p-0 pb-0">
+         <div className="container mx-auto p-2 sm:p-0 lg:p-5 pb-0 sm:pb-0 lg:pb-0">
       
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
       
