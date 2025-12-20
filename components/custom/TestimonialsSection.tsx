@@ -61,13 +61,13 @@ export default function TestimonialsSlider() {
   const totalSlides = Math.ceil(testimonials.length / cardsPerView);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-8">
+    <div className="w-full max-w-7xl mx-auto px-4 py-8 font-serif">
 
-       <h2 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl mt-1 text-center ${styles.TestimonialsHeading}`}>
-        Why India's Traders Choose SMC for Smarter Decisions
+       <h2 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl mt-1 pb-2 text-center ${styles.TestimonialsHeading}`}>
+        Why India's Traders Choose SMC
       </h2>
       <p className={`text-1xl sm:text-2xl md:text-2xl lg:text-2xl mt-1 text-center pb-10 ${styles.TestimonialsPra}`}>
-        Real stories from everyday traders who transformed their trading with expert insights, zero-emotion strategies, and clarity-driven decisions.
+        Real stories from everyday traders who transformed their trading with expert insights
       </p>
 
 

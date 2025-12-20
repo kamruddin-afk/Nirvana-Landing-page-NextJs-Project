@@ -9,14 +9,16 @@ import MtfVideo from '@/components/custom/MtfVideo';
 function Tab() {
     return (
         <div>
-            <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.AllInOneH3}`}>All-in-One Platform for Research-Driven Trading</h3>
+            <div className='pt-10'>
+            <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl pb-2 ${styles.AllInOneH3}`}>All-in-One Platform for Research-Driven Trading</h3>
             <p className={`text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.AllInOneP}`}>SMC Ace 2.0 gives you everything you need to trade confidently.</p>
+            </div>
 
-            <div className="max-w-[1100px] mx-auto p-0 sm:p-10">
+            <div className="max-w-[1100px] mx-auto p-0 sm:p-10 font-serif">
 
-                <Tabs defaultValue="charting" className="overflow-hidden min-h-[400px] sm:min-h-[500px] md:min-h-[550px] lg:min-h-[650px] xl:min-h-[600px] grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 lg:gap-10">
+                <Tabs defaultValue="charting" className="overflow-hidden min-h-[400px] sm:min-h-[500px] md:min-h-[550px] lg:min-h-[650px] xl:min-h-[600px] gap-4 md:gap-6 lg:gap-10 flex flex-col md:flex-row">
 
-                    <TabsList className="w-full flex-wrap bg-white w-[120%] h-auto">
+                    <TabsList className="max-w-[700px] flex-wrap bg-white w-[120%] h-auto gap-3 md:gap-0 lg:gap-0 pt-5 sm:pt-0">
 
                         <TabsTrigger value="charting"
                             className="flex flex-col items-start px-4 py-3 pb-5 pt-5 text-left w-full rounded-lg duration-200
@@ -28,8 +30,8 @@ function Tab() {
         data-[state=inactive]:bg-[#F3F6FF]
          data-[state=inactive]:text-[#2B2A29] "
                         >
-                            <span className="text-[26px] text-left leading-[35px]">Advanced Charting Tools</span>
-                            <span className="text-[20px] text-left leading-[28px] font-normal">100+ indicators for smart analysis</span>
+                            <span className="text-[22px] sm:text-[20px] md:text-[22px] lg:text-[26px] text-left leading-[35px] font-semibold">Ready-Made Options Trading Strategies</span>
+                            <span className="text-[16px] leading-[24px] sm:text-[18px] sm:leading-[26px] lg:text-[20px] text-left leading-[28px] font-normal">Trade faster with pre-built, proven strategies</span>
                         </TabsTrigger>
 
                         <TabsTrigger
@@ -43,8 +45,8 @@ function Tab() {
           data-[state=inactive]:bg-[#F3F6FF]
           data-[state=inactive]:text-[#2B2A29]"
                         >
-                            <span className="text-[26px] text-left leading-[35px]">Free Algo Trading APIs</span>
-                            <span className="text-[20px] text-left leading-[28px] font-normal">Automate strategies at no extra cost</span>
+                            <span className="text-[22px] sm:text-[20px] md:text-[22px] lg:text-[26px] text-left leading-[35px] font-semibold">Advanced Option Chain</span>
+                            <span className="text-[16px] leading-[24px] sm:text-[18px] sm:leading-[26px] lg:text-[20px] text-left leading-[28px] font-normal">Analyze and execute in one click</span>
                         </TabsTrigger>
 
                         <TabsTrigger
@@ -58,8 +60,8 @@ function Tab() {
         data-[state=inactive]:bg-[#F3F6FF]
         data-[state=inactive]:text-[#2B2A29]"
                         >
-                            <span className="text-[26px] text-left leading-[35px]">GTT Orders</span>
-                            <span className="text-[20px] text-left leading-[28px] font-normal">Set once, trade automatically</span>
+                            <span className="text-[22px] sm:text-[20px] md:text-[22px] lg:text-[26px] text-left leading-[35px] font-semibold">GTT Orders</span>
+                            <span className="text-[16px] leading-[24px] sm:text-[18px] sm:leading-[26px] lg:text-[20px] text-left leading-[28px] font-normal">Set once, trade automatically</span>
                         </TabsTrigger>
 
                         <TabsTrigger
@@ -73,8 +75,8 @@ function Tab() {
         data-[state=inactive]:bg-[#F3F6FF]
          data-[state=inactive]:text-[#2B2A29]"
                         >
-                            <span className="text-[26px] text-left leading-[35px]">4X Margin Trading (MTF)</span>
-                            <span className="text-[20px] text-left leading-[28px] font-normal">Multiply your buying power</span>
+                            <span className="text-[22px] sm:text-[20px] md:text-[22px] lg:text-[26px] text-left leading-[35px] font-semibold">Smart Basket</span>
+                            <span className="text-[16px] leading-[24px] sm:text-[18px] sm:leading-[26px] lg:text-[20px] text-left leading-[28px] font-normal">Execute multiple trades with one order</span>
                         </TabsTrigger>
 
                         <TabsTrigger
@@ -88,13 +90,13 @@ function Tab() {
         data-[state=inactive]:bg-[#F3F6FF]
          data-[state=inactive]:text-[#2B2A29] "
                         >
-                            <span className="text-[26px] text-left leading-[35px]">Premium Research Tools</span>
-                            <span className="text-[20px] text-left leading-[28px] font-normal ">Expert-backed recommendations</span>
+                            <span className="text-[22px] sm:text-[20px] md:text-[22px] lg:text-[26px] text-left leading-[35px] font-semibold">Actionable Research Insights</span>
+                            <span className="text-[16px] leading-[24px] sm:text-[18px] sm:leading-[26px] lg:text-[20px] text-left leading-[28px] font-normal ">Clear, expert calls you can act on</span>
                         </TabsTrigger>
                     </TabsList>
 
 
-                    <div className="w-full h-auto">
+                    <div className="h-auto place-items-center sm:place-items-end">
                         <TabsContent value="charting" className="flex items-center justify-center mt-0">
 
                             <Advancechartvideo />

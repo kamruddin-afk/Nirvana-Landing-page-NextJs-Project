@@ -4,8 +4,8 @@ import FooterLinks from '@/components/custom/FooterLinks'
 function Footer() {
   return (
     <section>
-      <div className='bg-gray-800 pt-20 pb-20 p-10'>
-        <div className='container mx-auto text-gray-600 text-sm'>
+      <div className='bg-gray-800 pt-20 pb-20 p-10 '>
+        <div className='container mx-auto text-gray-600 text-sm font-serif'>
 
           <p className='pb-5'>SMC Global Securities Ltd | CIN : L74899DL1994PLC063609 | Registered Office: 11/6B, Shanti Chamber, Pusa Road, Delhi-110005. | Tel +91-11-30111000 | Compliance Officer: Mr. Vikas Sethi | Tel +91-11-30111000 Extn. 340 | Email:-vikassethi@smcindiaonline.com | Customer Care Email -smc.care@smcindiaonline.com | Complaint Email -igc@smcindiaonline.com | website: www.smctradeonline.com</p>
 

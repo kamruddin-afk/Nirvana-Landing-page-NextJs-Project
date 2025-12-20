@@ -2,10 +2,15 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import styles from "@/components/custom/custom.module.css";
+
+
 
 interface AwardSliderProps {
   images: string[];
 }
+
+
 
 const AwardSlider: React.FC<AwardSliderProps> = ({ images }) => {
   const [index, setIndex] = useState<number>(0);
@@ -14,11 +19,19 @@ const AwardSlider: React.FC<AwardSliderProps> = ({ images }) => {
   const totalSlides = Math.ceil(images.length / 4);
 
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full mx-auto font-serif">
+      <div className="pb-10 container mx-auto">
+            <h2 className={`mt-1 text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.AwardSliderHeading}`}>
+              Awarded the Best Year after Year
+            </h2>
+            <p className={`mt-1 text-center text-2xl sm:text-2xl md:text-3xl lg:text-2xl ${styles.AwardSliderPra}`}>
+              Over the past few years, SMC has been awarded with the following awards
+            </p>
+
+          </div>
 
       <div className="overflow-hidden w-full text-center content-center">
-        <div
-          className="flex transition-all duration-500"
+        <div className="flex transition-all duration-500"
           style={{ transform: `translateX(-${index * 100}%)` }}
         >
           {images.map((img, i) => (

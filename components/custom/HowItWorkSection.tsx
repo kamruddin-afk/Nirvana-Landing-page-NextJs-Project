@@ -3,7 +3,7 @@ import React from 'react'
 function Howitwork() {
   return (
     <section className="w-full bg-white p-10 pt-20 pb-10">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 items-center gap-10 max-md:grid-cols-1 max-md:text-center">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 items-center gap-10 max-md:grid-cols-1 max-md:text-center font-serif">
 
 
         <div>

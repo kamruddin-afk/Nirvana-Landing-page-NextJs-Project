@@ -8,48 +8,25 @@ html, body {
 .heroSectionContentH2 {
 
     color: #2B2A29;
-
-    font-family: Inter;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    /* 60px */
+    font-weight: 500;
 }
 
 .heroSectionContentH1 {
     color: #3E4695;
-    font-family: Inter;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 100%;
-    /* 80px */
 }
-
+ 
 
 .heroSectionContentP {
     color: #2B2A29;
-
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 150%;
-    padding-top: 10px;
-    /* 45px */
+ 
 }
-
-
 
 .StopGuessingContantH3 {
     color: #3E4695;
     font-family: Inter;
-
     font-style: normal;
     font-weight: 800;
     line-height: 125%;
-    /* 50px */
 }
 
 .StopGuessingContantP {
@@ -284,7 +261,7 @@ line-height: 130%; /* 33.8px */
 @media (max-width:576px)  { 
     .heroSectionContentH1{font-size: 50px; padding-bottom: 5px;}
    .heroSectionContentH2{font-size: 25px;}
-   .mobileVeiw{padding-top: 60px;}
+   .mobileVeiw{padding-top: 10px;}
    .heroSectionContentP {font-size: 22px;}
 }
 

@@ -1,25 +1,21 @@
 "use client";
 import React from "react";
 import styles from "@/components/custom/custom.module.css";
-import Hero from '@/components/custom/Hero'
-import Tab from "@/components/custom/tab"
-import ResearchSection from '@/components/custom/ResearchSection'
-import Howitwork from "@/components/custom/HowItWork";
-import Testimonials from '@/components/custom/testimonials'
-import Image from "next/image";
-import AwardSlider from "@/components/custom/AwardSlider";
-import FaqAccordion from "@/components/custom/FaqAccordion";
-import StopGuessing from '@/components/custom/StopGuessing';
-import PricingSection from '@/components/custom/PricingSection'
+import Hero from '@/components/custom/HeroSection'
+import Tab from "@/components/custom/AllInOneSection"
+import ResearchSection from '@/components/custom/WhyChooseUs'
+import Howitwork from "@/components/custom/HowItWorkSection";
+import Testimonials from '@/components/custom/TestimonialsSection'
+import AwardSlider from "@/components/custom/AwardSection";
+import FaqAccordion from "@/components/custom/FaqSection";
+import StopGuessing from '@/components/custom/StopGuessingSection';
+import PricingSection from '@/components/custom/PricingSection';
+import ZeroCostSection from "@/components/custom/ZeroCostSection";
 
 
 export default function Home() {
 
-
-
-
-
- {/* award slider start  */}
+  {/* award slider start  */ }
   const imgs: string[] = [
     "/Award-Symbol.png",
     "/Award-Symbol.png",
@@ -36,9 +32,9 @@ export default function Home() {
 
   ];
 
-  {/* award slider end  */}
+  {/* award slider end  */ }
 
-  {/* testimonail slider start  */}
+  {/* testimonail slider start  */ }
 
   const faqData = [
     {
@@ -57,7 +53,7 @@ export default function Home() {
 
     { question: "How do I get started with the Alpha Trader Plan?", answer: "Getting started is simple — just enter your mobile number on the landing page, complete the basic verification, and open your Ujjivan Bank-SMC 3-in-1 Account. After activation, you can subscribe to the Alpha Trader Plan for ₹699/year and start trading at ₹5/order." }
   ];
-{/* testimonail slider end  */}
+  {/* testimonail slider end  */ }
   return (
 
     <>
@@ -65,18 +61,24 @@ export default function Home() {
         <Hero />
       </section>
 
+      <section>
 
+      <ZeroCostSection />
 
-      <section className="StopGuessing">
-         <StopGuessing />
       </section>
 
 
+
+      <section className="StopGuessing">
+        <StopGuessing />
+      </section>
+
+      {/*  ------------ 
 
       <section className="pricing-section bg-pricingImg bg-no-repeat bg-center lg:bg-contain sm:bg-cover ">
         <PricingSection />
       </section>
-
+*/}
 
 
       <section className="AllInOne pt-20 mb-5 p-5 sm:p-10">
@@ -86,10 +88,10 @@ export default function Home() {
       </section>
 
 
-      <section className="WhySection bg-whySectionImg pt-20 bg-cover">
-       
-          <ResearchSection />
-       
+      <section className="bg-whySectionImg pt-20 bg-cover">
+
+        <ResearchSection />
+
 
       </section>
 
@@ -109,15 +111,7 @@ export default function Home() {
       <section className="awards">
 
         <div className="p-10 container mx-auto">
-          <div className="pb-10">
-            <h2 className={`mt-1 text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.AwardSliderHeading}`}>
-              Why India's Traders Choose SMC for Smarter Decisions
-            </h2>
-            <p className={`mt-1 text-center text-2xl sm:text-2xl md:text-3xl lg:text-2xl ${styles.AwardSliderPra}`}>
-              Real stories from everyday traders who transformed their trading with expert insights, zero-emotion strategies, and clarity-driven decisions.
-            </p>
 
-          </div>
           <AwardSlider images={imgs} />
 
 

@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Image from "next/image";
-import Bggraphic from "@/components/custom/bggraphic"
+import Bggraphic from "@/components/custom/GraphicsResourceIcon"
 import styles from "@/components/custom/custom.module.css";
 
 type CardItem = {
@@ -10,17 +10,17 @@ type CardItem = {
 }
 
 const cards = [
-  { icon: "/calls-icon.svg", title: "Daily Actionable Calls" },
-  { icon: "/sector-icon.svg", title: "Sector-Wise Insights" },
-  { icon: "/research-icon.svg", title: "Research-Backed Trades" },
-  { icon: "/charting-icon.svg", title: "Advanced Charting Tools" }
+  { icon: "/sector-icon.svg", title: "Research-Backed Trades" },
+  { icon: "/api.svg", title: "Free Algo Trading APIs" },
+  { icon: "/research-icon.svg", title: "Upto 4x MTF" },
+  { icon: "/charting-icon.svg", title: "Advanced Trading Tools" },
 ];
 function StopGuessing() {
   
   return (
     <div>
-       <div className="bg-slate-50 relative p-5 sm:p-10">
-          <div className="absolute top-0 left-0 w-[50px] sm:w-[200px] md:w-[350px] lg:w-[500px]">
+       <div className="bg-slate-50 relative p-5 sm:p-10 font-serif">
+          <div className="absolute top-10 left-0 w-[50px] sm:w-[200px] md:w-[350px] lg:w-[500px]">
             <Bggraphic />
 
           </div>
@@ -30,11 +30,11 @@ function StopGuessing() {
 
               {/* Left Content */}
               <div className="StopGuessingContant text-center lg:text-left">
-                <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.StopGuessingContantH3}`}>
-                  Stop Guessing. Start Trading with Proven Research.
+                <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl pb-2 ${styles.StopGuessingContantH3}`}>
+                  Stop Guessing. Start Trading.
                 </h3>
                 <p className={`text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.StopGuessingContantP} mt-4`}>
-                  SMC Nirvana gives you access to SEBI-registered expert calls, advanced analysis tools, and transparent pricing - empowering you to make informed trading decisions every day.
+                with SMC you will access to SEBI-registered expert calls, advanced analysis tools, and transparent pricing - empowering you to make informed trading decisions every day.
                 </p>
               </div>
 

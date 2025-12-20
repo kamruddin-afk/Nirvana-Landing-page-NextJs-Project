@@ -20,7 +20,7 @@ const FaqAccordion: React.FC<FAQProps> = ({ data }) => {
   };
 
   return (
-    <div className="container mx-auto space-y-2 pt-20 pb-20 p-10">
+    <div className="container mx-auto space-y-2 pt-20 pb-20 p-10 font-serif">
         <div className="pb-10">
             <h2 className={`mt-1 text-center text-2xl sm:text-3xl md:text-3xl lg:text-4xl ${styles.FaqHeading}`}>
              Frequently Asked Questions
@@ -47,7 +47,7 @@ const FaqAccordion: React.FC<FAQProps> = ({ data }) => {
               onClick={() => toggleFAQ(index)}
               className="w-full flex justify-between items-center p-4 text-left"
             >
-              <span className="font-semibold text-[26px]">{item.question}</span>
+              <span className="font-semibold text-[18px] sm:text-[20px] md:text-[22px] lg:text-[26px]">{item.question}</span>
 
               <span
                 className={`transition-transform duration-300 ${
@@ -60,7 +60,7 @@ const FaqAccordion: React.FC<FAQProps> = ({ data }) => {
 
             {/* CONTENT */}
             {isActive && (
-              <div className="px-4 pb-4 text-[24px] text-[#2B2A29]">
+              <div className="px-4 pb-4 text-[18px] sm:px-4 sm:pb-4 sm:text-[20px] md:text-[22px] lg:text-[24px] text-[#2B2A29]">
                 {item.answer}
               </div>
             )}

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Bggraphic() {
   return (
-    <div>
-      <svg width="164" height="120" viewBox="0 0 164 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <>
+      <svg width="164" height="120" viewBox="0 0 164 160"  className="w-24 sm:w-36 md:w-44 lg:w-42 h-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_630_11303)">
           <g opacity="0.5">
             <path opacity="0.5" d="M24.9973 0V19.9975M24.9973 28.8854V48.8837M49.9946 24.9973H29.9971M19.9975 24.9973H0" stroke="#5096FF" stroke-width="0.829016" />
@@ -22,7 +22,7 @@ function Bggraphic() {
         </defs>
       </svg>
 
-    </div>
+    </>
   )
 }
 

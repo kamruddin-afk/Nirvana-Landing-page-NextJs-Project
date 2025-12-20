@@ -18,7 +18,7 @@ const FooterLinks: React.FC<FooterLinksProps> = ({
   ],
 }) => {
   return (
-    <ul className="flex flex-wrap justify-start gap-4 text-sm text-gray-600">
+    <ul className="flex flex-wrap justify-start gap-4 text-sm text-gray-600 font-serif">
       {links.map((link, index) => (
         <li key={index}>
           <Link

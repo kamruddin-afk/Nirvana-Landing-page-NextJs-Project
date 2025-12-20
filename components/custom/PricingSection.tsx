@@ -7,7 +7,7 @@ function PricingSection() {
   return (
     <div>
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
-                <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 mt-20">
+                <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 mt-20 font-serif">
       
                   {/* Pricing Image - Hidden on mobile */}
                   <div className="lg:pt-20 md:pt-20 hidden lg:flex justify-center">
