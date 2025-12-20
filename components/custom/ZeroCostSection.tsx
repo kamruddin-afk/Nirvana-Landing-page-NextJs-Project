@@ -24,11 +24,11 @@ const ZeroCostSection = () => {
                         Expert guidance delivered with integrity, clarity, and zero hidden costs.
                     </p>
 
-                    {/* Cards */}
+             
                     <div className="flex flex-col items-center gap-5 sm:gap-16 pt-10 sm:pt-0 md:flex-row md:justify-center">
 
-                        {/* Card 1 */}
-                        <div className="relative w-full max-w-[330px] rounded-[20px] border border-gray-300 bg-white p-10 shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+
+                        <div className="relative w-full max-w-[300px] rounded-[20px] border border-gray-300 bg-white p-10 shadow-[0_10px_25px_rgba(0,0,0,0.08)] bg-Transparency bg-cover bg-left">
                             <div className="absolute -top-4 -left-3 h-7 w-7 rounded-sm">
 
                                 <Image
@@ -41,6 +41,7 @@ const ZeroCostSection = () => {
                             </div>
 
                             <div className="flex justify-center items-start text-[#3E4695]">
+                                
                                 <span className="text-3xl font-bold mt-2">₹</span>
                                 <span className="text-[180px] leading-none font-extrabold">0</span>
                             </div>
@@ -50,8 +51,8 @@ const ZeroCostSection = () => {
                             </p>
                         </div>
 
-                        {/* Card 2 */}
-                        <div className="relative w-full max-w-[330px] rounded-[20px] border border-gray-300 bg-white mt-0 sm:mt-32 p-10 shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+                       
+                        <div className="relative w-full max-w-[300px] rounded-[20px] border border-gray-300 bg-white mt-0 sm:mt-32 p-10 shadow-[0_10px_25px_rgba(0,0,0,0.08)] bg-Transparency bg-cover bg-left">
                             <div className="absolute -top-4 -left-3 h-7 w-7 rounded-sm">
 
                                 <Image
@@ -77,7 +78,7 @@ const ZeroCostSection = () => {
                         </div>
 
                         {/* Card 3 */}
-                        <div className="relative w-full max-w-[330px] rounded-[20px] border border-gray-300 bg-white p-10 shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+                        <div className="relative w-full max-w-[300px] rounded-[20px] border border-gray-300 bg-white p-10 shadow-[0_10px_25px_rgba(0,0,0,0.08)] bg-Transparency bg-cover bg-left">
                             <div className="absolute -top-4 -left-3 h-7 w-7 rounded-sm">
 
                                 <Image

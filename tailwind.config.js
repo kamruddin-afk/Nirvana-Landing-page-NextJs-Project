@@ -16,6 +16,7 @@ module.exports = {
 				bannerImg: "url('/hero-bg.jpg')",
 				pricingImg: "url('/pricing-bg.png')",
 				whySectionImg: "url('/why-section-bg.jpg')",
+				Transparency:"url('/bg-for-0.png')"
 			},
 
 

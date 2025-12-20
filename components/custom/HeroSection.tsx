@@ -6,7 +6,7 @@ import Bggraphic from "@/components/custom/GraphicsResourceIcon"
 
 function Hero() {
   return (
-    <div className='p-5 sm:p-10'>
+    <div className='p-5 sm:p-10 pb-0 sm:pb-0'>
       <div className="container mx-auto p-2 sm:p-0 lg:p-5 pb-0 sm:pb-0 lg:pb-0 font-serif">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative ">

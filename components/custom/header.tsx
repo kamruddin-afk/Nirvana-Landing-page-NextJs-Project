@@ -5,7 +5,7 @@ import styles from "@/components/custom/custom.module.css";
 
 function Header() {
     return (
-        <header className='header relative pb-20'>
+        <header className='header relative pb-20 bg-bannerImg bg-cover bg-top'>
             <div className='container mx-auto absolute inset-0 p-5 sm:p-10'>
 
                 <div className='flex justify-between justify-items-center content-center pt-0 items-center p-2 sm:p-0 lg:p-0'>

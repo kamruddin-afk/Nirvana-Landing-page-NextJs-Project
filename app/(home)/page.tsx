@@ -57,7 +57,7 @@ export default function Home() {
   return (
 
     <>
-      <section className={`bg-bannerImg bg-cover ${styles.mobileVeiw}`}>
+      <section className={`bg-bannerImg bg-cover bg-bottom ${styles.mobileVeiw}`}>
         <Hero />
       </section>
 
