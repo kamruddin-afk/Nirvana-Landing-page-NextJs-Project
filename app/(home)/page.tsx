@@ -17,20 +17,16 @@ export default function Home() {
 
   {/* award slider start  */ }
   const imgs: string[] = [
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png",
-    "/Award-Symbol.png"
-
-  ];
+    "/award-1.png",
+    "/award-2.png",
+    "/award-3.png",
+    "/award-4.png",
+    "/award-5.png",
+    "/award-6.png",
+    "/award-7.png",
+    "/award-8.png",
+ 
+   ];
 
   {/* award slider end  */ }
 
@@ -57,7 +53,7 @@ export default function Home() {
   return (
 
     <>
-      <section className={`bg-bannerImg bg-cover bg-bottom ${styles.mobileVeiw}`}>
+      <section className={`bg-bannerImg bg-cover bg-top ${styles.mobileVeiw}`}>
         <Hero />
       </section>
 

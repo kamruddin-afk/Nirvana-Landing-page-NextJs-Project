@@ -20,7 +20,7 @@ function Hero() {
            
 
             <h2 className="text-xl sm:text-4xl md:text-3xl lg:text-1xl text-[#2B2A29] font-serif font-700">Experience the Freedom of</h2>
-            <h1 className="text-4xl sm:text-6xl md:text-5xl lg:text-8xl text-[#3E4695] font-black font-serif pt-1">₹0 Brokerage</h1>
+            <h1 className="text-4xl sm:text-6xl md:text-5xl lg:text-7xl text-[#3E4695] font-black font-serif pt-1">₹0 Brokerage</h1>
 
             <div className="flex lg:justify-start">
               <span className="">

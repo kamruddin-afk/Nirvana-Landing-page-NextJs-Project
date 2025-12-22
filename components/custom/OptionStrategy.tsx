@@ -1,10 +1,11 @@
+import { Video } from 'lucide-react'
 import React from 'react'
 
-function ApiVideo() {
-  return (
-    <div>
-        <video
-                src="/GttOrder.mp4"
+function Advancechartvideo() {
+    return (
+        <div>
+            <video
+                src="/OptionStrategy.mp4"
                 autoPlay
                 muted
                 loop
@@ -12,8 +13,9 @@ function ApiVideo() {
                 controls={false}
                 className="rounded-xl"
             />
-    </div>
-  )
+
+        </div>
+    );
 }
 
-export default ApiVideo
+export default Advancechartvideo;

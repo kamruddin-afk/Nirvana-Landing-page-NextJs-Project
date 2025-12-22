@@ -21,7 +21,7 @@ const ZeroCostSection = () => {
                         Where Trust Meets Transparency at ₹0
                     </h2>
                     <p className="mt-2 text-sm md:text-base text-gray-600">
-                        Expert guidance delivered with integrity, clarity, and zero hidden costs.
+                        Expert guidance delivered with integrity, clarity, and zero hidden costs
                     </p>
 
              

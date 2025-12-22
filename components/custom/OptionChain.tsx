@@ -1,11 +1,10 @@
-import { Video } from 'lucide-react'
 import React from 'react'
 
-function Advancechartvideo() {
-    return (
-        <div>
-            <video
-                src="/mobile-show1.mp4"
+function MtfVideo() {
+  return (
+    <div>
+       <video
+                src="/OptionChain.mp4"
                 autoPlay
                 muted
                 loop
@@ -13,9 +12,8 @@ function Advancechartvideo() {
                 controls={false}
                 className="rounded-xl"
             />
-
-        </div>
-    );
+    </div>
+  )
 }
 
-export default Advancechartvideo;
+export default MtfVideo

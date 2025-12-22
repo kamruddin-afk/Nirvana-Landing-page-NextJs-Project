@@ -8,7 +8,7 @@ function Howitwork() {
 
         <div>
           <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl pb-4 font-bold text-[#2b348a]">See How It Works</h2>
-          <p className="text-1xl sm:text-2xl md:text-2xl lg:text-2xl font-normal text-[#2b2a29]">Experience how SMC's research-led trading ecosystem helps you make informed decisions. This quick walkthrough highlights how expert insights and seamless execution guide your trades while giving you a cost-efficient start to your journey.</p>
+          <p className="text-1xl sm:text-2xl md:text-2xl lg:text-2xl font-normal text-[#2b2a29]">Experience how SMC's research-led trading ecosystem helps you make informed decisions. This quick walkthrough highlights how expert insights and seamless execution guide your trades while giving you a cost-efficient start to your journey</p>
         
         </div>
 

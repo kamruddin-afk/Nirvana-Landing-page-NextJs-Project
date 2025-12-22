@@ -34,7 +34,7 @@ function StopGuessing() {
                   Stop Guessing. Start Trading.
                 </h3>
                 <p className={`text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.StopGuessingContantP} mt-4`}>
-                with SMC you will access to SEBI-registered expert calls, advanced analysis tools, and transparent pricing - empowering you to make informed trading decisions every day.
+                with SMC you will access to SEBI-registered expert calls, advanced analysis tools, and transparent pricing - empowering you to make informed trading decisions every day
                 </p>
               </div>
 

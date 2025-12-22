@@ -1,10 +1,10 @@
 import React from 'react'
 
-function ApiVideo() {
+function GttOrder() {
   return (
     <div>
-        <video
-                src="/api-video.mp4"
+       <video
+                src="/SmartBasket.mp4"
                 autoPlay
                 muted
                 loop
@@ -16,4 +16,4 @@ function ApiVideo() {
   )
 }
 
-export default ApiVideo
+export default GttOrder

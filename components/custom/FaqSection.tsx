@@ -26,7 +26,7 @@ const FaqAccordion: React.FC<FAQProps> = ({ data }) => {
              Frequently Asked Questions
             </h2>
             <p className={`mt-1 text-center mt-1 text-center text-2xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.FaqPra}`}>
-             Get quick answers to the most commonly asked questions about Demat Accounts.
+             Get quick answers to the most commonly asked questions about Demat Accounts
             </p>
 
           </div>

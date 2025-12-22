@@ -53,7 +53,7 @@ function PricingSection() {
                     </Table>
       
                     <p className="text-center lg:text-center pt-5 pb-10 text-[14px]">
-                      Note: First 30 days brokerage-free (up to ₹1000) for new accounts.
+                      Note: First 30 days brokerage-free (up to ₹1000) for new accounts
                     </p>
                   </div>
       

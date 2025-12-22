@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
       <div className="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] mx-auto">
 
         <h3 className={`text-2xl sm:text-3xl md:text-3xl lg:text-4xl pb-2 ${styles.AllInOneH3}`}>Why Choose SMC</h3>
-        <p className={`w-full mx-auto text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.AllInOneP}`}>SMC empowers traders with trusted research, advanced trading platforms, and a nationwide presence—helping investors trade with confidence and consistency.</p>
+        <p className={`w-full mx-auto text-1xl sm:text-2xl md:text-2xl lg:text-2xl ${styles.AllInOneP}`}>SMC empowers traders with trusted research, advanced trading platforms, and a nationwide presence—helping investors trade with confidence and consistency</p>
 
       </div>
 
